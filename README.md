@@ -18,9 +18,21 @@
    http://localhost/ **[your-app-dir]**/login.php
    
    
-**Part 2: Server Side (with PHP)**
+   
+**Part 2: Server Side (PHP)**
 1. Clone this repository and install the require dependencies by using the following command:
 
    "**composer require twig/twig guzzlehttp/guzzle nesbot/carbon vlucas/phpdotenv ircmaxell/random-lib**"
+2. Now configure the **.env** file according to requirement
+
+   MYSQL_HOST=DB_HOST<br/>
+   MYSQL_DB=DB_NAME<br/>
+   MYSQL_USER=YOUR_DB_USER<br/>
+   MYSQL_PASS=YOUR_DB_PASSWORD<br/>
+   SHOPIFY_APIKEY="YOUR SHOPIFY APP API KEY"<br/>
+   SHOPIFY_SECRET="YOUR SHOPIFY APP SECRET"<br/>
+   SHOPIFY_SCOPES="read_products,read_customers"<br/>
+   SHOPIFY_REDIRECT_URI="http://localhost/ **[your-app-dir]** /login.php"<br/>
+
 
 
