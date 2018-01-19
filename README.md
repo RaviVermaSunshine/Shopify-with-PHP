@@ -42,6 +42,9 @@
    
 5. After authenticate by Shopify store, you will receive the <i>access_token</i>, and this access_token will be used to call the Shopify REST_APIs.
 
+6. We include a test file (**get-products**) to get Store's all <i>products</i> details & render them in grid view template.
+   - http://localhost/ **[your-app-dir]** /get-products.php
+
 All goods! Successfully created Shopify app with PHP.
 
 
