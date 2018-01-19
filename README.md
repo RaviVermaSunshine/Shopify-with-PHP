@@ -14,8 +14,13 @@
    http://localhost/ **[your-app-dir]**
    
    - App Redirection URL:
+   
    http://localhost/ **[your-app-dir]**/login.php
    
    
+**Part 2: Server Side (with PHP)**
+1. Clone this repository and install the require dependencies by using the following command:
+
+   "**composer require twig/twig guzzlehttp/guzzle nesbot/carbon vlucas/phpdotenv ircmaxell/random-lib**"
 
 
