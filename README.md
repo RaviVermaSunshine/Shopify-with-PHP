@@ -24,7 +24,7 @@
 
    "**composer require twig/twig guzzlehttp/guzzle nesbot/carbon vlucas/phpdotenv ircmaxell/random-lib**"
    
-2. Create a new **database** and import the script providec in "**db**" directory.
+2. Create a new **database** and import the script provided in "**db**" directory.
 
 3. Now configure the **.env** file as per requirement
 
