@@ -39,5 +39,11 @@
    
 4. Browse the **install** url directly (if app is not listed on Shopify Apps store). It will ask for store url on which you want to install the app.
    - http://localhost/ **[your-app-dir]** /install.php
+   
+5. After authenticate by Shopify store, you will receive the <i>access_token</i>, and this access_token will be used to call the Shopify REST_APIs.
+
+All goods! Successfully created Shopify app with PHP.
+
+
 
 
