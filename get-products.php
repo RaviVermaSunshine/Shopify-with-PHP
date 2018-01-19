@@ -10,7 +10,7 @@ $dotenv->load();
 
 $db = new Mysqli(getenv('MYSQL_HOST'), getenv('MYSQL_USER'), getenv('MYSQL_PASS'), getenv('MYSQL_DB')); 
 
-$store = SHOPIFY_STORE; //'test-shop.myshopify.com'; 	// change this to your store url
+$store = getenv('SHOPIFY_STORE'); //'test-shop.myshopify.com'; 	//store url
 $select = $db->query("SELECT access_token FROM installs WHERE store = '$store'");
 $user = $select->fetch_object();
 $access_token = $user->access_token;
