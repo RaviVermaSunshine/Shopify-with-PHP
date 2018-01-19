@@ -67,6 +67,8 @@ if($hmac === $calculated_hmac){
 			$db->query("UPDATE installs SET access_token = '$access_token' WHERE id = '$id'");
 		}
 	}
+	
+	echo "<h1>App successfully installed on <b>$store</b> and return access_token <b>$access_token</b></h1>"
 
 }
 
