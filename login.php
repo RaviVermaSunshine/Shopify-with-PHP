@@ -68,7 +68,7 @@ if($hmac === $calculated_hmac){
 		}
 	}
 	
-	echo "<h1>App successfully installed on <b>$store</b> and return access_token <b>$access_token</b></h1>"
+	echo "<p>App successfully installed on <b>$store</b> and return access_token <b>$access_token</b></p>";
 
 }
 
