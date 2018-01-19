@@ -13,9 +13,8 @@
    - App URL:   
    http://localhost/ **[your-app-dir]**
    
-   - App Redirection URl:
-   
-   http://localhost/ **[your-app-dir]** /login.php**
+   - App Redirection URl
+   http://localhost/ **[your-app-dir]** /login.php
    
    
 
