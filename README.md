@@ -32,7 +32,7 @@
    MYSQL_DB=DB_NAME<br/>
    MYSQL_USER=YOUR_DB_USER<br/>
    MYSQL_PASS=YOUR_DB_PASSWORD<br/>
-   SHOPIFY_STORE="your-store-name.myshopify.com"
+   SHOPIFY_STORE="your-store-name.myshopify.com"<br/>
    SHOPIFY_APIKEY="YOUR SHOPIFY APP API KEY"<br/>
    SHOPIFY_SECRET="YOUR SHOPIFY APP SECRET"<br/>
    SHOPIFY_SCOPES="read_products,read_customers"<br/>
